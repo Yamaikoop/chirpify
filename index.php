@@ -15,7 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->execute(['user_id' => $user_id, 'content' => $content]);
 }
 
-$stmt = $pdo->query("SELECT tweets.*, users.username FROM tweets JOIN users ON tweets.user_id = users.id ORDER BY tweets.created_at DESC");
+//$stmt = $pdo->query("SELECT tweets.*, users.username FROM tweets JOIN users ON tweets.user_id = users.id ORDER BY tweets.created_at DESC");
+$stmt = $pdo->query("SELECT * FROM tweets");
 $tweets = $stmt->fetchAll();
 ?>
 
