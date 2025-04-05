@@ -47,5 +47,8 @@ $tweets = $stmt->fetchAll();
 
         <a href="logout.php">Uitloggen</a>
     </div>
+    <div >
+       <img src="images/blitter.png" alt="" class="bird"> 
+    </div>
 </body>
 </html>

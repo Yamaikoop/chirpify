@@ -31,6 +31,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div >
+       <img src="images/blitter.png" alt="" class="png"> 
+    </div>
+    
 <div class="container">
     <h1>Inloggen</h1>
     <form method="POST">

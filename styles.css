@@ -51,3 +51,15 @@ button:hover {
 .tweet small {
     color: #657786;
 }
+.png{
+    width: 100px;
+    position: absolute;
+    left: 995px
+}
+.bird{
+    width: 100px;
+    position: absolute;
+    left: 995px;
+    top: 75px;
+    
+}
