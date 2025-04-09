@@ -28,7 +28,7 @@ $tweets = $stmt->fetchAll();
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="background-image: url('achtergrond chirpyfy.webp'); background-size: cover;">
     <div class="container">
         <h1>Welkom, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h1>
         <form method="POST">
@@ -50,5 +50,5 @@ $tweets = $stmt->fetchAll();
     <div >
        <img src="images/blitter.png" alt="" class="bird"> 
     </div>
-</body>
+</>
 </html>

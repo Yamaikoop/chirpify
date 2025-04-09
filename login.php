@@ -30,12 +30,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Inloggen</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div >
-       <img src="images/blitter.png" alt="" class="png"> 
-    </div>
-    
+<body style="background-image: url('achtergrond chirpyfy.webp'); background-size: cover;">
+<div>
+    <img src="images/blitter.png" alt="" class="png">
+</div>
+
 <div class="container">
+
     <h1>Inloggen</h1>
     <form method="POST">
         <input type="text" name="username" placeholder="Gebruikersnaam" required>

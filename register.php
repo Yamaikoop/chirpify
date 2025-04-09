@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Registreren</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="background-image: url('achtergrond chirpyfy.webp'); background-size: cover;">
 <div class="container">
     <h1>Registreren</h1>
     <form method="POST">
